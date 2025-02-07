@@ -79,10 +79,6 @@ button {
 }
 
 .hero {
-    background-image: url(/img/hero\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: -20% 100px bottom;
-
     &__wrapper {
         margin-top: 10px;
         display: flex;
@@ -131,11 +127,6 @@ button {
         }
     }
 
-    &__body {
-        background-image: url(/img/hero2.svg);
-        background-repeat: no-repeat;
-        background-position: bottom left;
-    }
 
 }
 
@@ -292,100 +283,7 @@ button {
     }
 }
 
-.desk {
-    
-    &__text{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 40px;
-        p {
-            text-align: center;
-            font-family: "DM Sans", serif;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 29px;
-            letter-spacing: 1px;
-    
-        }
-       
 
-    }
-
-    &__wrapper {
-        margin-top: 70px;
-        display: grid;
-        gap: 40px;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    &__item {
-
-
-        h3 {
-            font-family: "DM Sans", serif;
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 31.25px;
-            text-align: center;
-        }
-
-        h5 {
-            font-family: "DM Sans", serif;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 27.9px;
-            text-align: center;
-            padding-bottom: 60px;
-        }
-
-        p {
-            font-family: "DM Sans", serif;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 27.9px;
-            text-align: left;
-            padding-bottom: 12px;
-        }
-
-        button {
-            width: Hug (192px)px;
-            font-family: "DM Sans", serif;
-            height: Hug (58px)px;
-            padding: 16px 24px 16px 24px;
-            gap: 16px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            margin-left: 50px;
-            margin-top: 100px;
-            border: none;
-            background: #FFB21E;
-            color: #fff;
-        }
-    }
-}
-
-@media (max-width:800px) {
-    .desk {
-        &__wrapper {
-            height: 720px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-}
-
-@media (max-width:500px) {
-    .desk {
-        &__wrapper {
-            height: 720px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-}
 .footer{
     background-image: url("../assets/Pattern\ \(3\).svg"), url("../assets/Pattern\ \(4\).svg");
     background-repeat: no-repeat;
